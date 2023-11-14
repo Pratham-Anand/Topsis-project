@@ -11,7 +11,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 def send_mail(email_id,resultfile):
-    fromaddr = "anandpratham13@gmail.com"
+    fromaddr = "youremail"
     toaddr = email_id
    
 # instance of MIMEMultipart
